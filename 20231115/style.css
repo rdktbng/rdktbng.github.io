@@ -40,7 +40,7 @@ h6 {
 	z-index: 1030;
 }
 .navbar .active {
-	color: #60a0ff !important;
+	color: #231115 !important;
 }
 .navbar .navbar-brand {
 }
@@ -55,7 +55,7 @@ h6 {
 	font-size: 13px;
 }
 .navbar .nav-item a:hover {
-	color: #60a0ff;
+	color: #231115 ;
 }
 .navbar .nav-link {
 	position: relative;
@@ -97,8 +97,8 @@ h6 {
 	position: relative;
 }
 .banner {
-	background: #005fb9;
-	background: linear-gradient(to left, #005fb9, #60a0ff);
+	background: #0055de;
+	background: linear-gradient(to left, #0055de, #60a0ff);
 	padding:100px 0px;
 	position:relative;
 }
@@ -187,8 +187,8 @@ h6 {
 	width: 135px;
 	height: 135px;
 	border-radius: 100px;
-	background: #005fb9;
-	background:  linear-gradient(to left, #005fb9, #60a0ff);
+	background: #0055de;
+	background:  linear-gradient(to left, #0055de, #60a0ff);
 	color: #ffffff;
 	font-size: 50px;
 	line-height: 135px;
@@ -322,7 +322,7 @@ h6 {
 }
 .testimonial {
 	background: #60a0ff;
-	background: linear-gradient(to left, #005fb9, #60a0ff);
+	background: linear-gradient(to left, #0055de, #60a0ff);
 	padding:100px 0px;
 	position:relative;
 }
@@ -434,15 +434,15 @@ input {
 	color: #fff;
 	border-radius: 2rem;
 	border: 0;
-	background: #005fb9;
-	background: linear-gradient(to left, #005fb9, #60a0ff);
+	background: #0055de;
+	background: linear-gradient(to left, #0055de, #60a0ff);
 	cursor:pointer;
 }
 .contact-info {
 	padding: 2rem 2rem 1rem;
 	border-radius: 8px;
-	background: #005fb9;
-	background: linear-gradient(to left, #005fb9, #60a0ff);
+	background: #0055de;
+	background: linear-gradient(to left, #0055de, #60a0ff);
 }
 .contact-item {
 	margin:23px 0px;
@@ -455,8 +455,8 @@ input {
 	margin: 0;
 }
 .download {
-	background: #005fb9;
-	background: linear-gradient(to left, #005fb9, #60a0ff);
+	background: #0055de;
+	background: linear-gradient(to left, #0055de, #60a0ff);
 	padding:100px 0px;
 	position:relative;
 }
