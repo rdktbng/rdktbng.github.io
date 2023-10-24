@@ -203,7 +203,11 @@ h6 {
 	width: 80%;
 	margin: 0 auto;
 }
-.about-btn {
+.gallery {
+	background: #fafafa;
+	border-top: 1px solid #e4e4e4;
+}
+.gallery-btn {
 	color: #60a0ff;
 	padding: 10px 40px;
 	border: 2px solid #60a0ff;
@@ -212,7 +216,7 @@ h6 {
 	display: inline-block;
 	font-size: 18px;
 }
-.about-btn:hover {
+.gallery-btn:hover {
 	background:#60a0ff;
 	color:#ffffff;
 	text-decoration:none;
@@ -485,7 +489,7 @@ input {
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #ffffff;
+	background: #0055de;
 	color: #242424;
 	font-size: 13px;
 	text-align: center;
@@ -540,7 +544,7 @@ h3 {
 .sectioner-header p {
 	font-size: 14px;
 }
-.about-btn {
+.gallery-btn {
 	padding: 5px 30px;
 	margin-top: 0px;
 	font-size: 16px;
