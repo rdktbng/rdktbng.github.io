@@ -61,11 +61,11 @@
 						function login() {
 							var userId = document.getElementById('id').value;
         					var password = document.getElementById('pw').value;
-							if(userId == ' rdktbng' && password == 'rdktbng.pw'){
-								window.location.href = 'https://rdktbng.github.io/20231115/home/';
+							if(userId == 'rdktbng' && password == 'rdktbng.pw'){
+								window.location.replace('https://rdktbng.github.io/20231115/home/');
 							}
 							else{
-								alert('Wrong UserId or Password!');
+								alert('Wrong UserID or Password!');
 							}
 						}
 						function forgot() {
