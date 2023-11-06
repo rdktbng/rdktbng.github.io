@@ -61,20 +61,24 @@
 						function login() {
 							var userId = document.getElementById('id').value;
         					var password = document.getElementById('pw').value;
-							if(userId == ' rdktbng' && password == 'rdktbng.pw'){
-								window.location.href = 'https://rdktbng.github.io/20231115/home/'
-							}
 							console.log(userId);
 							console.log(password);
+							if(userId == ' rdktbng' && password == 'rdktbng.pw'){
+								window.location.href = 'https://www.google.com/'
+							}
+
+						}
+						function forgot() {
+							alert("那也沒辦法😩")
 						}
 					</script>					
 					<div class="text-center p-t-12">
 						<span class="txt1">
 							Forgot
 						</span>
-						<a class="txt2" href="#">
+						<button onclick="forgot()">
 							Username / Password?
-						</a>
+						</button>
 					</div>
 
 					<div class="text-center p-t-136">
