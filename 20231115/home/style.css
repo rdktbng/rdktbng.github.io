@@ -222,12 +222,12 @@ h6 {
 	text-decoration:none;
 }
 .video-section {
-	background: url(images/video-bg.jpg) no-repeat fixed center;
+	background: url(images/newcastle.jpeg) no-repeat fixed center;
 	background-size: cover;
 	overflow: hidden;
 }
 .video-overlay {
-	background: linear-gradient(to left, rgba(96, 160, 255, 0.9), rgba(112, 140, 167, 0.90));
+	background: linear-gradient(to left, rgba(96, 160, 255, 0.5), rgba(112, 140, 167, 0.5));
 }
 .video-section h3 {
 	font-weight: 600;
@@ -489,7 +489,6 @@ input {
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #0055de;
 	color: #242424;
 	font-size: 13px;
 	text-align: center;
@@ -520,7 +519,6 @@ input {
 }
 .banner-text {
 	padding-right: 0px;
-	margin: 10px 0px 0px;
 }
 h2 {
 	font-size: 25px;
@@ -534,10 +532,7 @@ h3 {
 .banner-text p {
 	margin: 25px 0px;
 }
-.banner-text ul li a img {
-	width: 140px;
-	border-radius: 7px;
-}
+
 .sectioner-header {
 	width: 90%;
 }
