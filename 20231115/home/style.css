@@ -342,13 +342,14 @@ h6 {
 }
 .bx-prev {
 	left: -90px !important;
-	background: url(images/arrow-left.png) no-repeat !important;
+	background: url(images/arrow.png) no-repeat !important;
 	background-size: auto auto !important;
 	background-size: 100% 100% !important;
+	transform: scaleX(-1); /* 水平翻转箭头 */
 }
 .bx-next {
 	right: -90px !important;
-	background: url(images/arrow-right.png) no-repeat !important;
+	background: url(images/arrow.png) no-repeat !important;
 	background-size: auto auto !important;
 	background-size: 100% 100% !important;
 }
