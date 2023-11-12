@@ -281,6 +281,27 @@ h6 {
 	width: 100%;
 	height: 100%;
 }
+
+.countdown-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+  }
+
+  .countdown {
+	text-align: center;
+  }
+
+  .countdown span {
+	display: inline-block;
+	font-size: 2em;
+	margin: 0 10px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+  }
 .single-feature {
 	margin-bottom: 80px;
 	margin-top: 40px;
@@ -294,8 +315,7 @@ h6 {
 .single-feature p {
 	font-size: 13px;
 }
-.icon-border {
-}
+
 .icon-border span {
 	display: block;
 	position: relative;
@@ -324,13 +344,13 @@ h6 {
 	font-size: 17px;
 	margin-bottom: 0px;
 }
-.testimonial {
+.Blog {
 	background: #60a0ff;
 	background: linear-gradient(to left, #0055de, #60a0ff);
 	padding:100px 0px;
 	position:relative;
 }
-.testimonial::before {
+.Blog::before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -459,36 +479,7 @@ input {
 	line-height: 20px;
 	margin: 0;
 }
-.download {
-	background: #0055de;
-	background: linear-gradient(to left, #0055de, #60a0ff);
-	padding:100px 0px;
-	position:relative;
-}
-.download::before {
-	content: "";
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: url(images/pattern.png);
-}
-.download ul {
-	list-style: none;
-}
-.download ul li {
-	display: inline-block;
-	margin: 0px 10px 10px 0px;
-}
-.download ul li a {
-	display: block;
-}
-.download ul li a img {
-	width: 150px;
-	border-radius: 7px;
-}
+
 .footer-copy {
 	color: #242424;
 	font-size: 13px;
@@ -600,4 +591,5 @@ h3 {
 .footer-copy p {
 	font-size: 10px;
 }
+
 }
