@@ -384,13 +384,15 @@ h6 {
 }
 .slider .test-img img {
 	border: 12px solid #fff;
-	border-radius: 50%;
-	width: 100%;
-	height: auto;
+	border-radius: 80%;
+	width: 200px;
+	height: 200px;
+
 }
 .test-img {
 	float: left;
-	width: 20%;
+    object-fit: cover; 
+    overflow: hidden;
 	margin-right:5%;
 }
 .test-text {
