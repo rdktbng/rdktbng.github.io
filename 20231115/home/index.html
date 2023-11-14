@@ -254,17 +254,17 @@
       </div>
       <div class="chat-body" id="chat-body">
           <div class="chat-message chat-bot-message">
-              <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="Bot Avatar">
+              <img class="chat-avatar" src="./images/kittypeanut.jpeg" alt="Bot Avatar">
               那我問你一個問題 啊你只能回yes or no
           </div>
           <div class="chat-message chat-bot-message">
-            <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="Bot Avatar">
+            <img class="chat-avatar" src="./images/kittypeanut.jpeg" alt="Bot Avatar">
             你要答應我才要問😑
         </div>
         <div class="chat-message">
           <button onclick="handleResponse('yes')" class="chat-button" style="border-radius: 10%;float: right;">好啦</button>
           <button onclick="handleResponse('no')" class="chat-button" style="border-radius: 10%;float: right;margin-left: 5px;">為抹</button>
-          <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="User Avatar" >
+          <img class="chat-avatar" src="./images/kittychocolate.jpeg" alt="User Avatar" >
       </div>
       </div>
       <div class="chat-input">
@@ -283,7 +283,7 @@
                 var botMessageDiv = document.createElement('div');
                 botMessageDiv.className = 'chat-message chat-bot-message';
                 botMessageDiv.innerHTML = `
-                    <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="Bot Avatar">
+                    <img class="chat-avatar" src="./images/kittypeanut.jpeg" alt="Bot Avatar">
                     沒有為抹
                 `;
                 chatBody.appendChild(botMessageDiv);
@@ -291,7 +291,7 @@
                 botMessageDiv.className = 'chat-message';
                 botMessageDiv.innerHTML = `                  
                     <button onclick="handleResponse('yes')" class="chat-button" style="border-radius: 10%;float: right;">好啦</button>
-                    <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="User Avatar">
+                    <img class="chat-avatar" src="./images/kittychocolate.jpeg" alt="User Avatar">
 
                 `;
                 chatBody.appendChild(botMessageDiv);
@@ -303,7 +303,7 @@
                 var botMessageDiv = document.createElement('div');
                 botMessageDiv.className = 'chat-message chat-bot-message';
                 botMessageDiv.innerHTML = `
-                    <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="Bot Avatar">
+                    <img class="chat-avatar" src="./images/kittypeanut.jpeg" alt="Bot Avatar">
                     那
                 `;
                 chatBody.appendChild(botMessageDiv);
@@ -311,7 +311,7 @@
                 var botMessageDiv = document.createElement('div');
                 botMessageDiv.className = 'chat-message chat-bot-message';
                 botMessageDiv.innerHTML = `
-                    <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="Bot Avatar">
+                    <img class="chat-avatar" src="./images/kittypeanut.jpeg" alt="Bot Avatar">
                     你現在還會想談戀愛嗎
                 `;
                 chatBody.appendChild(botMessageDiv);
@@ -337,7 +337,7 @@
         userMessageDiv.className = 'chat-message chat-user-message';
         userMessageDiv.innerHTML = `
             ${userInput}
-            <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="User Avatar">
+            <img class="chat-avatar" src="./images/kittychocolate.jpeg" alt="User Avatar">
 
         `;
         chatBody.appendChild(userMessageDiv);
@@ -374,7 +374,7 @@
             botMessageDiv.className = 'chat-message';
             botMessageDiv.innerHTML = `                  
                 <button onclick="handleResponse('new')" class="chat-button" style="border-radius: 10%;float: right;">按我重來</button>
-                <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="User Avatar">
+                <img class="chat-avatar" src="./images/kittychocolate.jpeg" alt="User Avatar">
             `;
             allowmessages = false;
             chatBody.appendChild(botMessageDiv);
@@ -391,7 +391,7 @@
                 var botMessageDiv = document.createElement('div');
                 botMessageDiv.className = 'chat-message chat-bot-message';
                 botMessageDiv.innerHTML = `
-                    <img class="chat-avatar" src="./gallery/kitty.jpeg" alt="Bot Avatar">
+                    <img class="chat-avatar" src="./images/kittypeanut.jpeg" alt="Bot Avatar">
                     ${message}
                 `;
                 chatBody.appendChild(botMessageDiv);
