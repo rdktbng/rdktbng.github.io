@@ -226,6 +226,11 @@ h6 {
 	background-size: cover;
 	overflow: hidden;
 }
+@media (max-width: 767px) {
+    .video-section {
+        background-size: contain;
+    }
+}
 .video-overlay {
 	background: linear-gradient(to left, rgba(96, 160, 255, 0.5), rgba(112, 140, 167, 0.5));
 }
