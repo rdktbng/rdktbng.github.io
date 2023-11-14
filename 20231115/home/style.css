@@ -263,6 +263,22 @@ h6 {
 	-ms-flex-pack: center !important;
 	justify-content: center !important;
 }
+/* 响应式媒体查询 */
+@media (min-width: 768px) {
+    .responsive-iframe {
+        width: 560px;   /* 调整为适当的宽度 */
+        height: 315px;  /* 调整为适当的高度 */
+    }
+}
+
+/* 手机屏幕下的样式 */
+@media (max-width: 767px) {
+    .responsive-iframe {
+        width: 100%;   /* 使用100%宽度 */
+        height: 180px; /* 调整为适当的高度 */
+    }
+}
+
 .video-popup .video-src {
 	position: relative;
 	width: 700px;
