@@ -223,7 +223,7 @@ h6 {
 }
 .video-section {
 	background: url(images/newcastle.jpeg) no-repeat fixed center;
-	background-size: cover;
+	background-size: auto;
 	overflow: hidden;
 }
 
